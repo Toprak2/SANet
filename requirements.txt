@@ -1,0 +1,6 @@
+scikit-learn==1.6.1
+tqdm==4.67.1
+numpy==2.0.2
+matplotlib==3.10.0
+audiomentations==0.41.0
+pandas==2.2.2
