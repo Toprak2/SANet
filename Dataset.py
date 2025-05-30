@@ -23,7 +23,7 @@ class SpeakerAudioDataset(Dataset):
 
     def __getitem__(self, idx):
         # We don't need json_path here anymore
-        audio_path, _, speaker_name = self.data_list[idx]
+        audio_path, speaker_name = self.data_list[idx]
         speaker_id = self.speaker_to_id[speaker_name]
 
         # Load audio file
