@@ -24,7 +24,7 @@ class RMSNormalize(BaseWaveformTransform):
 def get_augmentations():
     train_augs = Compose([
         # 1) waveform‑level augments that keep raw amplitude
-        # ApplyImpulseResponse(ir_path="/content/MIT_IR", p=0.4),
+        ApplyImpulseResponse(ir_path="MIT_IR", p=0.4),
         TimeStretch(min_rate=0.97, max_rate=1.03, p=0.3),
         PitchShift(min_semitones=-0.25, max_semitones=0.25, p=0.1),
         # 2) loudness equalisation
