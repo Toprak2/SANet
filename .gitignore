@@ -1,0 +1,16 @@
+#ignore __pycache__ directories
+**/__pycache__/
+#ignore Python bytecode files
+*.pyc
+#ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+#ignore virtual environment directories
+venv/
+#ignore model weights
+*.pt
+#ignore png files
+*.png
+#ignore wav files
+*.wav
+#ignore json files
+*.json
