@@ -1,4 +1,4 @@
-# Waveform Classification with Gated Downsampled Attention
+# Waveform Classification with Downsampled Attention
 
 This repository implements an end-to-end 1D convolutional + self-attention architecture for audio classification on raw waveforms (4 s @ 16 kHz) along with the wav2vec2 and AST model finetuning.
 
